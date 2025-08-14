@@ -1,2 +1,2 @@
 # TicTacToe
-Дописать Server и Client после того как напишу следующий проект по сетям
+Next Network
