@@ -1,0 +1,41 @@
+/*Display*/
+.main-display{
+    -fx-background-image: url(main.jpg);
+}
+/*Button*/
+.button-display{
+    -fx-font-weight: bold;
+    -fx-min-width: 100px;
+    -fx-cursor: hand;
+    -fx-background-color: #f73636;
+}
+
+.button-display:hover{
+    -fx-effect: dropshadow(gaussian, #ff0000, 19, 0.4, 0, 0);
+}
+
+.button-display:pressed{
+    -fx-effect: innershadow(gaussian, #ff0000, 0, 1, 0, 0);
+    -fx-scale-x: 0.95; /* Уменьшение по оси X */
+    -fx-scale-y: 0.95; /* Уменьшение по оси Y */
+}
+.button-plate{
+    -fx-min-width: 40px;
+    -fx-min-height: 40px;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+    -fx-border-color: black;
+    -fx-indent: 10px;
+}
+
+/*TextField*/
+.allField{
+    -fx-border-color: black;
+    -fx-font-weight: bold;
+}
+
+/*Text*/
+.allTextwField{
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+}
